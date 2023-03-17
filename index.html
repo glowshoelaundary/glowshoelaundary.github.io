@@ -186,7 +186,7 @@ __wm.bt(700,27,25,2,"web","http://www.glowshoelaundry.com/","20220119140038",199
                        <div class="col-md-6 col-sm-6">
                            <div class="topbar-left">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-envelope"></i> info@glowshoelaundry.com</a></li>
+                                    <li><a href="#"><i class="fa fa-envelope"></i> glowshoelaundry@gmail.com</a></li>
                                     <li><a href="#"><i class="fa fa-phone"></i> +91-9222736683</a></li>
                                 </ul>
 							</div>
@@ -254,7 +254,7 @@ __wm.bt(700,27,25,2,"web","http://www.glowshoelaundry.com/","20220119140038",199
 
                                                                                 <li class=""><a href="faq.html">FAQ</a></li>
 
-                                                                                <li class=""><a href="contact.html">contact us</a></li>
+                                                                                <li class=""><a onClick="scrollToBottom()">contact us</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -292,7 +292,7 @@ __wm.bt(700,27,25,2,"web","http://www.glowshoelaundry.com/","20220119140038",199
 
                                                                                 <li class=""><a href="faq.html">FAQ</a></li>
 
-                                                                                <li class=""><a href="contact.html">contact us</a></li>
+                                                                                <li class=""><a onClick="scrollToBottom()">contact us</a></li>
                                     </ul>
                                 </nav>
                             </div>					
@@ -612,7 +612,7 @@ See the results of our customer testimonials on how we build strong working rela
 
                                                                                 <li class=""><a href="faq.html">FAQ</a></li>
 
-                                                                                <li class=""><a href="contact.html">Contact us</a></li>
+                                                                                <li class=""><a onClick="scrollToBottom()">contact us</a></li>
 
                                         
                                     </ul>
@@ -907,6 +907,13 @@ slidesToScroll: 1
 </script>
 <script>
   AOS.init();
+</script>
+<script>
+    const scrollingElement = (document.scrollingElement || document.body);
+
+const scrollToBottom = () => {
+   scrollingElement.scrollTop = scrollingElement.scrollHeight;
+}
 </script>
 	</body>
 

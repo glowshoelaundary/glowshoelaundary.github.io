@@ -184,7 +184,7 @@ __wm.bt(700,27,25,2,"web","http://glowshoelaundry.com/about.html","2022011423072
                        <div class="col-md-6 col-sm-6">
                            <div class="topbar-left">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-envelope"></i> info@glowshoelaundry.com</a></li>
+                                    <li><a href="#"><i class="fa fa-envelope"></i> glowshoelaundry@gmail.com</a></li>
                                     <li><a href="#"><i class="fa fa-phone"></i> +91-9222736683</a></li>
                                 </ul>
 							</div>
@@ -252,7 +252,7 @@ __wm.bt(700,27,25,2,"web","http://glowshoelaundry.com/about.html","2022011423072
 
                                                                                 <li class=""><a href="faq.html">FAQ</a></li>
 
-                                                                                <li class=""><a href="contact.html">contact us</a></li>
+                                                                                <li class=""><a onClick="scrollToBottom()">contact us</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -290,7 +290,7 @@ __wm.bt(700,27,25,2,"web","http://glowshoelaundry.com/about.html","2022011423072
 
                                                                                 <li class=""><a href="faq.html">FAQ</a></li>
 
-                                                                                <li class=""><a href="contact.html">contact us</a></li>
+                                                                                <li class=""><a onClick="scrollToBottom()">contact us</a></li>
                                     </ul>
                                 </nav>
                             </div>					
@@ -484,7 +484,7 @@ Someday, we will surely get a patent for our innovative cleaning techniques. But
 
                                                                                 <li class=""><a href="faq.html">FAQ</a></li>
 
-                                                                                <li class=""><a href="contact.html">Contact us</a></li>
+                                                                                <li class=""><a onClick="scrollToBottom()">contact us</a></li>
 
                                         
                                     </ul>
@@ -502,7 +502,7 @@ Someday, we will surely get a patent for our innovative cleaning techniques. But
                                         Jamil Nagar Road, Ekta Police Station, Bhandup(w)-400078.</p>
 										<p><span><i class="fa fa-phone"></i></span> +91-9222736683</p>
                                         <p><span><i class="fa fa-phone"></i></span> +91-7733007723</p>
-										<p><span><i class="fa fa-envelope" aria-hidden="true"></i></span> info@glowshoelaundry.com</p>
+										
                                         <p><span><i class="fa fa-envelope" aria-hidden="true"></i></span> glowshoelaundry@gmail.com</p>
 										
 									</div> 
@@ -777,6 +777,13 @@ slidesToScroll: 1
 </script>
 <script>
   AOS.init();
+</script>
+<script>
+    const scrollingElement = (document.scrollingElement || document.body);
+
+const scrollToBottom = () => {
+   scrollingElement.scrollTop = scrollingElement.scrollHeight;
+}
 </script>
 	</body>
 
