@@ -47,7 +47,7 @@
 /*----------------------------------------*/
 /*  Google Fonts
 /*----------------------------------------*/
-@import url('https://web.archive.org/web/20220102181404cs_/https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&amp;display=swap');
 
 
 /*----------------------------------------*/
@@ -557,7 +557,7 @@ background: rgb(10 24 40) none repeat scroll 0 0;
 /*  3. Intro Area
 /*----------------------------------------*/
 .slide-area {
-    background: rgba(0, 0, 0, 0) url(/web/20220102181404im_/http://glowshoelaundry.com/css/img/slider/h1.jpg) no-repeat scroll top center / cover;
+    background: rgba(0, 0, 0, 0) url(http://glowshoelaundry.com/css/img/slider/h1.jpg) no-repeat scroll top center / cover;
     width: 100%;
     height: 100%;
     z-index: 1;
