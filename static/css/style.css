@@ -1572,7 +1572,7 @@ span.users {
 }
 .footer-list li a::after {
     position: absolute;
-    content: "\e649";
+    content: "\27A4";
     right: auto;
     top: 0px;
     left: 0;
