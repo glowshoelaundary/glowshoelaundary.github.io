@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+
+    <title>Thank You | Glow Shoe Laundry</title>
+    <meta name="description" content="Thank you for booking with Glow Shoe Laundry. We'll contact you shortly!" />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Modern CSS -->
+    <link rel="stylesheet" href="./src/styles/main.css">
+
+    <style>
+        .success-animation {
+            animation: scaleIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        @keyframes scaleIn {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .checkmark {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: block;
+            stroke-width: 3;
+            stroke: #4bb543;
+            stroke-miterlimit: 10;
+            margin: 2rem auto;
+            box-shadow: inset 0px 0px 0px #4bb543;
+            animation: fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+        }
+
+        .checkmark-circle {
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            stroke-width: 3;
+            stroke-miterlimit: 10;
+            stroke: #4bb543;
+            fill: none;
+            animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+        }
+
+        .checkmark-check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+        }
+
+        @keyframes stroke {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes fill {
+            100% {
+                box-shadow: inset 0px 0px 0px 60px #4bb543;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-content">
+            <a href="/" class="logo" aria-label="Glow Shoe Laundry Home">
+                <span style="font-weight: 800; font-size: 1.5rem; letter-spacing: -1px;">Glow <span
+                        style="color: var(--secondary);">Shoe Laundry</span></span>
+            </a>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/gallery.html">Gallery</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Thank You Section -->
+        <section
+            style="min-height: 80vh; display: flex; align-items: center; justify-content: center; background: var(--gradient-hero); padding: 120px 0 80px;">
+            <div class="container">
+                <div class="success-animation"
+                    style="max-width: 600px; margin: 0 auto; text-align: center; background: white; padding: 4rem 3rem; border-radius: 24px; box-shadow: var(--shadow-xl);">
+
+                    <!-- Animated Checkmark -->
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+
+                    <h1 style="color: var(--primary); margin-bottom: 1rem; font-size: 2.5rem;">Booking Confirmed!</h1>
+                    <p style="font-size: 1.2rem; color: var(--text-light); margin-bottom: 3rem;">Thank you for choosing
+                        Glow Shoe Laundry. We've received your order and will contact you shortly to confirm your pickup
+                        time.</p>
+
+                    <!-- What's Next -->
+                    <div
+                        style="background: var(--gradient-card); padding: 2rem; border-radius: 16px; margin-bottom: 2rem; text-align: left;">
+                        <h3 style="margin-bottom: 1.5rem; color: var(--primary);"><i class="fas fa-clipboard-list"
+                                style="margin-right: 0.5rem; color: var(--secondary);"></i>What Happens Next?</h3>
+                        <ul style="list-style: none; line-height: 2.5;">
+                            <li><i class="fas fa-check-circle" style="color: #4bb543; margin-right: 0.5rem;"></i> We'll
+                                call you within <strong>2 hours</strong></li>
+                            <li><i class="fas fa-check-circle" style="color: #4bb543; margin-right: 0.5rem;"></i>
+                                Confirm your pickup time slot</li>
+                            <li><i class="fas fa-check-circle" style="color: #4bb543; margin-right: 0.5rem;"></i>
+                                Collect your shoes from your doorstep</li>
+                            <li><i class="fas fa-check-circle" style="color: #4bb543; margin-right: 0.5rem;"></i> Return
+                                them fresh and clean!</li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                        <p style="margin-bottom: 0.5rem; color: var(--text-light);">Need immediate assistance?</p>
+                        <a href="tel:+919222736683"
+                            style="font-size: 1.5rem; font-weight: 700; color: var(--secondary); text-decoration: none;">
+                            <i class="fas fa-phone-alt" style="margin-right: 0.5rem;"></i>+91-9222736683
+                        </a>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <a href="/" class="btn" style="text-align: center;">
+                            <i class="fas fa-home" style="margin-right: 0.5rem;"></i>Back to Home
+                        </a>
+                        <a href="/services.html" class="btn"
+                            style="text-align: center; background: white; color: var(--primary); border: 2px solid var(--primary);">
+                            <i class="fas fa-concierge-bell" style="margin-right: 0.5rem;"></i>Our Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: #1a252f; color: white; padding: 4rem 0;">
+        <div class="container">
+            <div class="grid-3">
+                <div>
+                    <h4>Glow Shoe Laundry</h4>
+                    <p style="opacity: 0.7; margin-top: 1rem;">Office-2, Faizullah Estate, Jamil Nagar Road,
+                        Bhandup(w)-400078</p>
+                    <p style="margin-top: 1rem;">📞 +91-9222736683</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul style="list-style: none; margin-top: 1rem; line-height: 2;">
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/faq.html">FAQ</a></li>
+                        <li><a href="/terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                </div>
+            </div>
+            <div
+                style="margin-top: 4rem; text-align: center; opacity: 0.5; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+                &copy; 2026 Glow Shoe Laundry. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/scripts/main.js"></script>
+</body>
+
+</html>
